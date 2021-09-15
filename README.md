@@ -17,6 +17,8 @@ A little game trainer for the game Saints Row The Third Remastered for the Epic 
 
 # INSTALL:
 
+Download on the right side on "Releases" or just click here to open the release tab: https://github.com/LunarBerry/SaintsRowTheThirdRemasteredTrainerEpicGamesVersion/releases/tag/saints%2Crow%2Cthe%2Cthird%2Cremastered%2Ctrainer%2Ccheat
+
 just start ur Game and start the cheat.
 
 And one thing: yeah u can play with that cheat with ur friends online coop because the game has NOT an anti cheat system.
