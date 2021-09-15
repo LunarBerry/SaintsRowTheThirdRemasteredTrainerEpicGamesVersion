@@ -18,3 +18,5 @@ A little game trainer for the game Saints Row The Third Remastered for the Epic 
 # INSTALL:
 
 just start ur Game and start the cheat.
+
+And one thing: yeah u can play with that cheat with ur friends online coop because the game has NOT an anti cheat system.
