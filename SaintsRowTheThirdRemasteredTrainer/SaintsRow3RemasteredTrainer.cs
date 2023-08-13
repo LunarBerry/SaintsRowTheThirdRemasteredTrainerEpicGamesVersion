@@ -44,7 +44,7 @@ namespace SaintsRowTheThirdRemasteredTrainer
         {
             if (textBox1.Text != "")
             {
-                m.WriteMemory("SRTTR.exe+0x11E9F20,1E90", "int", textBox1.Text + "00");
+                m.WriteMemory("SRTTR.exe+1E22A10,1E90", "int", textBox1.Text + "00");
 
             }
 
@@ -103,7 +103,7 @@ namespace SaintsRowTheThirdRemasteredTrainer
 
         private void button1_Click(object sender, EventArgs e)
         {
-            m.WriteMemory("SRTTR.exe+0x1E22A10,2054", "int", "255500");
+            m.WriteMemory("SRTTR.exe+026C4A58,178", "int", "255500");
             MessageBox.Show("Deine XP/EP wurden gesetzt. Steig in ein Straßenfahrzeug und mache knappe überholmanöver. Anschließend stehen bleiben und 3-10 Sekunden warten bis die XP/EP gezählt werden.");
 
             /*
