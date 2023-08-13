@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Threading;
 using System.Windows.Forms;
 using Memory;
@@ -30,9 +24,9 @@ namespace SaintsRowTheThirdRemasteredTrainer
             {
                 m.OpenProcess(PID);
                 label1.ForeColor = Color.Green;
-                label1.Text = "Saints Row The Third Remastered Gefunden!";
+                label1.Text = "Saints Row The Third Remastered connected!";
                 label2.ForeColor = Color.Green;
-                label2.Text = "Hackfunktionen erfolgreich geladen!";
+                label2.Text = "Functions successfully loaded!";
 
                 Thread AMM = new Thread(unlAmmo);
                 AMM.Start();
@@ -42,7 +36,7 @@ namespace SaintsRowTheThirdRemasteredTrainer
             }
             else
             {
-                MessageBox.Show("Spiel nicht gefunden Blyat. Hack schließen und das Spiel als erstes starten.");
+                MessageBox.Show("Game not found! Please start ur Game first and wait until u spawn ingame. Start Cheat again");
             }
         }
 
