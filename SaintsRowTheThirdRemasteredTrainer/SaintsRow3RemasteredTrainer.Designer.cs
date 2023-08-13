@@ -42,10 +42,11 @@ namespace SaintsRowTheThirdRemasteredTrainer
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -109,6 +110,7 @@ namespace SaintsRowTheThirdRemasteredTrainer
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.addMoneyButton);
@@ -192,6 +194,33 @@ namespace SaintsRowTheThirdRemasteredTrainer
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Max XP/EP";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(70, 77);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(96, 13);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "to trigger this Hack";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(30, 62);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(175, 13);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "and do ingame something to get XP";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(85, 46);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(67, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Press Button";
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Indigo;
@@ -205,32 +234,14 @@ namespace SaintsRowTheThirdRemasteredTrainer
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label4
+            // label7
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(85, 46);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Press Button";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(30, 62);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(175, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "and do ingame something to get XP";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(70, 77);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(96, 13);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "to trigger this Hack";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(93, 16);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(89, 13);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "dont write DOTS!";
             // 
             // SaintsRow3RemasteredTrainer
             // 
@@ -286,6 +297,7 @@ namespace SaintsRowTheThirdRemasteredTrainer
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label7;
     }
 }
 
