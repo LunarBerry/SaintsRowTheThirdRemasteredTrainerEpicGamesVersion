@@ -3,6 +3,9 @@ Ein kleiner Game Trainer für das Spiel Saints Row The Third Remastered für die
 
 A little game trainer for the game Saints Row The Third Remastered for the Epic Games launcher version.
 
+# Changelogs
++ Hacks are working again
+
 
 # Fetures:
 1. Max Money to 10000000 $. U can set ur own Money like: u need only 100k ? fine u can write 100000 and done.
