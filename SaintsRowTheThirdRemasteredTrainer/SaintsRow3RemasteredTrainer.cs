@@ -44,18 +44,20 @@ namespace SaintsRowTheThirdRemasteredTrainer
         {
             if (textBox1.Text != "")
             {
-                m.WriteMemory("SRTTR.exe+1E22A10,1E90", "int", textBox1.Text + "00");
+                m.WriteMemory("SRTTR.exe+0x11EAF30,1E90", "int", textBox1.Text + "00");
 
             }
 
             /*
-             * alle offset möglichkeiten:
-             * SRTTR.exe+11E9F20,1E90
-             * SRTTR.exe+1A588F8,1E90
-             * SRTTR.exe+1E22A10,1E90
-             * SRTTR.exe+1E3F370,1E90
-             * SRTTR.exe+254B710,1E90
-             * SRTTR.exe+2884028,1E90
+             * alle grünen pointer:
+             * SRTTR.exe+0x11EAF30,1E90
+             * SRTTR.exe+0x1A24980,1E90
+             * SRTTR.exe+0x1A598F8,1E90
+             * SRTTR.exe+0x1E21490,1E90
+             * SRTTR.exe+0x1E3DDF0,1E90
+             * SRTTR.exe+0x2052398,1E90
+             * SRTTR.exe+0x26CF328,1E90
+             * SRTTR.exe+0x28C8650,1E90
              */
         }
 
@@ -65,16 +67,12 @@ namespace SaintsRowTheThirdRemasteredTrainer
             {
                 if (checkBox1.Checked)
                 {
-                    m.WriteMemory("SRTTR.exe+0x1A0C0E8,204", "int", "40");
-                    Thread.Sleep(50);
+                    m.WriteMemory("SRTTR.exe+0x1A0D0E8,204", "int", "8");
+                    Thread.Sleep(10);
                 }
             }
-            /*
-             * 1A8B812CD78,204
-             * 1A8B8087DD8,204
-             * 1A8B7AF6038,204
-             * 1A8B7A6C1A0,204
-             * 1A8B7A3B1D8,204
+            /* green pointer
+             * SRTTR.exe+0x1A0D0E8,204
              */
         }
 
