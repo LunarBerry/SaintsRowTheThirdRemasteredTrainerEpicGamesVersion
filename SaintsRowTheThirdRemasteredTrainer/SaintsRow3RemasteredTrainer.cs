@@ -10,7 +10,7 @@ namespace SaintsRowTheThirdRemasteredTrainer
     {
         Mem m = new Mem();
 
-        //offsets are patched. i will Update soon
+        //offsets are working
         public SaintsRow3RemasteredTrainer()
         {
             InitializeComponent();
